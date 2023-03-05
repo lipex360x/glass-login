@@ -1,0 +1,70 @@
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 2rem 10rem;
+  background: red;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+  z-index: 99;
+
+  h2 {
+    font-size: 2.4rem;
+    color: $white;
+    user-select: none;
+  }
+
+  nav {
+    display: flex;
+    align-items: center;
+    gap: 2.8rem;
+
+    a {
+      position: relative;
+      color: $white;
+      font-weight: bold;
+
+      &::after {
+        content: '';
+        position: absolute;
+        left: 0;
+        bottom: -6px;
+        width: 100%;
+        height: 3px;
+        background: $white;
+        border-radius: 5px;
+        transform-origin: right;
+        transform: scaleX(0);
+        transition: transform .3s;
+      }
+
+      &:hover::after {
+        transform-origin: left;
+        transform: scaleX(1);
+      }
+    }
+
+    button {
+      padding: 0.6rem 4rem;
+      background: transparent;
+      border: 2px solid $white;
+      outline: none;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 1.6rem;
+      color:$white;
+      font-family: "Poppins";
+      font-weight: bold;
+      transition: .3s;
+
+      &:hover {
+        background: $white;
+        color: $darkBlue;
+      }
+    }
+  }
+}
