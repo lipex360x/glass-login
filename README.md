@@ -17,7 +17,7 @@
 
 - [Technologies](#zap-technologies)
 
-- [Live Preview](https://vitets-sass.netlify.app/)
+- [Live Preview](https://glass-blue-login.netlify.app/)
 
 ---
 
