@@ -44,6 +44,7 @@ This is a simple HTML, Typescript and SASS Project with a login/register glassmo
   Vite
   Typescript
   SASS
+  ionicons
 ```
 
 ---
