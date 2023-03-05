@@ -1,6 +1,7 @@
 @import "@fontsource/poppins/index.css";
-@import "mixins";
-@import "variables";
-@import "reset";
+@import "base/index";
 
-@import "header";
+@import "components/body";
+@import "components/header";
+@import "components/container";
+@import "components/form-box";
